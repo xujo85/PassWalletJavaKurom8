@@ -55,7 +55,7 @@
         }
 
         page = new Web();
-        page.password = "login-username";
+        page.password = "password-input";
         page.username = "login-username";
         webFields.put("Twitch",page);
 
@@ -111,7 +111,7 @@
         }
 
         page = new Web();
-        page.password = "form[username]";
+        page.password = "form[password]";
         page.username = "form[username]";
         webFields.put("Azet",page);
 
